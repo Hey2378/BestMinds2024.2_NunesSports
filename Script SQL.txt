@@ -1,0 +1,8 @@
+CREATE SCHEMA `nunes_sport` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
+
+CREATE TABLE `nunes_sports`.`produtos` (
+  `codigo_produto` INT NOT NULL AUTO_INCREMENT,
+  `nome_produto` VARCHAR(255) NOT NULL,
+  `descricao_produto` VARCHAR(255) NULL,
+  `preco_produto` DECIMAL(5, 2) NOT NULL,
+  PRIMARY KEY (`codigo_produto`));
