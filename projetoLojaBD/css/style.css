@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+}
+.container {
+    width: 200px;
+    height: 200px;
+}
+input[type = "submit"] {
+    margin-top: 8px;
+}
+table {
+    margin-top: 10px;
+    border-collapse: collapse;
+    width: 500px;
+}
+th, td {
+    border: 1px solid black;
+}
